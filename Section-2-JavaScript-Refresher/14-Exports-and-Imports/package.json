@@ -1,0 +1,12 @@
+{
+  "name": "14-exports-and-imports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayon Al Mamun",
+  "license": "ISC",
+  "type": "module"
+}
