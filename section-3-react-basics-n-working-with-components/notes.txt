@@ -13,3 +13,6 @@ return (<div><h2>HI</h2></div>) -> JSX
 
 // tutorial 31
 JSX = JavaScript XML
+
+// tutorial 32
+component is just html element
