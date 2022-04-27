@@ -1,0 +1,15 @@
+// tutorial 30
+react app starts from index.js
+
+react-dom exports some react dom object and import in index.js
+
+index.html is the only html file which is used in react project. Single page application.
+
+createRoot defines the root of the react app
+
+<App /> -> JSX Syntax
+return (<div><h2>HI</h2></div>) -> JSX
+// tutorial 30
+
+// tutorial 31
+JSX = JavaScript XML

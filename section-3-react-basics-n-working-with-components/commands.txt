@@ -1,0 +1,2 @@
+npx create-react-app 28-1-creating-a-new-react-project
+npm start
