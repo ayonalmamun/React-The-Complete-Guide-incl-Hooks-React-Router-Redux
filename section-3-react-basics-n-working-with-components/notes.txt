@@ -19,3 +19,10 @@ component is just html element
 
 // tutorial 33
 custom component must start with an uppercase character
+
+// tutorial 34
+must have one root element here per return statement or per JSX code snippet.
+
+return <div>Date</div><div><h2>Title</h2><div>Amount</div></div>
+
+here, there are two root element(two div)
