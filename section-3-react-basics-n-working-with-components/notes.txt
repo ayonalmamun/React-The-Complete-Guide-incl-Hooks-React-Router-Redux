@@ -16,3 +16,6 @@ JSX = JavaScript XML
 
 // tutorial 32
 component is just html element
+
+// tutorial 33
+custom component must start with an uppercase character
