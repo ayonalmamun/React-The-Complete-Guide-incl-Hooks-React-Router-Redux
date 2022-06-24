@@ -30,3 +30,14 @@ here, there are two root element(two div)
 // tutorial 37
 props passes data
 props means, properties
+
+// tutorial 42
+JSX is syntactic sugar
+it is transformed to methods called on this react object, that is why needed to import react in every single component 
+
+return React.createElement(
+    'div', 
+    {}, 
+    React.createElement('h2', {}, "Hi"),
+    React.createElement(Expenses, {items: expenses})
+);
