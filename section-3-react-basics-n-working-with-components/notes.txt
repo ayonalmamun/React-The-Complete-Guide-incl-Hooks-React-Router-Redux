@@ -44,3 +44,10 @@ return React.createElement(
     React.createElement('h2', {}, "Hi"),
     React.createElement(Expenses, {items: expenses})
 );
+
+
+
+// Section 4
+
+//tutorial 47
+in jsx, "on" is a special props.
