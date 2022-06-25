@@ -31,6 +31,9 @@ here, there are two root element(two div)
 props passes data
 props means, properties
 
+// tutorial 40
+Wrapper component - props.children
+
 // tutorial 42
 JSX is syntactic sugar
 it is transformed to methods called on this react object, that is why needed to import react in every single component 
