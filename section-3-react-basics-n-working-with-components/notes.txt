@@ -69,3 +69,11 @@ both of the names are up to me
 useState calls the component again when the state(value) changes
 
 if you console.log right after change the state, you will get the old value because the new value is not available yet
+
+// tutorial 50
+four separate instance for four ExpenseItem
+every ExpenseItem has their own state
+
+if you console.log in the component, at first load, there will be four console.log
+
+if you change one value, there will be one single console log
