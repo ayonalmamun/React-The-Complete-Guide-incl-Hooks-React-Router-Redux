@@ -77,3 +77,7 @@ every ExpenseItem has their own state
 if you console.log in the component, at first load, there will be four console.log
 
 if you change one value, there will be one single console log
+
+// tutorial 53
+onChange which triggers every keystroke
+in onChange prop, react will make sure or browser will make sure that we get the event object when changes occurs
