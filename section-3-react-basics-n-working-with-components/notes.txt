@@ -49,5 +49,23 @@ return React.createElement(
 
 // Section 4
 
-//tutorial 47
+// tutorial 47
 in jsx, "on" is a special props.
+
+// tutorial 48
+state
+
+// tutorial 49 very important
+useState is a react hook
+it should always be called inside of the component
+also id doesn't work in any nested function, works only directly in the component
+
+useState always returns array, with exactly two elements
+useState uses array destructuring technique
+name of the variable which contains the value
+function name, the function which will update the value
+both of the names are up to me
+
+useState calls the component again when the state(value) changes
+
+if you console.log right after change the state, you will get the old value because the new value is not available yet
