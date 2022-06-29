@@ -81,3 +81,6 @@ if you change one value, there will be one single console log
 // tutorial 53
 onChange which triggers every keystroke
 in onChange prop, react will make sure or browser will make sure that we get the event object when changes occurs
+
+// tutorial 55
+if you manage one single state and use it, make sure that other pieces of data doesn't get lost. use spread operator.
