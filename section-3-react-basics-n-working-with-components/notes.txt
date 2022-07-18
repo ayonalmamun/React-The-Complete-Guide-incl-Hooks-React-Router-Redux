@@ -105,3 +105,10 @@ it will always get latest state snapshot
 event.preventDefault();
 
 we can preventDefult of this request being sent and page will also not reload
+
+// tutorial 58
+2 way binding
+Reset the inputs
+pass a new value back into the input
+
+we dont just listen to changes anymore, we also feed the state back into the input
