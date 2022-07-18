@@ -84,3 +84,19 @@ in onChange prop, react will make sure or browser will make sure that we get the
 
 // tutorial 55
 if you manage one single state and use it, make sure that other pieces of data doesn't get lost. use spread operator.
+
+// tutorial 56
+React schedules state updates, not instantly.
+
+setUserInput({
+    ...userInput,
+    enteredTitle: event.target.value
+});
+
+if we use this, we might target outdated/incorrect state snapshot
+
+setUserInput((prevState) => {
+    return { ...prevState, enteredTitle: event.target.value }
+});
+
+it will always get latest state snapshot
