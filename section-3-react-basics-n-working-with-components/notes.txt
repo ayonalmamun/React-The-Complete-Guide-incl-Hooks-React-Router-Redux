@@ -100,3 +100,8 @@ setUserInput((prevState) => {
 });
 
 it will always get latest state snapshot
+
+// tutorial 57
+event.preventDefault();
+
+we can preventDefult of this request being sent and page will also not reload
