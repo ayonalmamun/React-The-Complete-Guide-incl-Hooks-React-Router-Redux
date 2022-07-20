@@ -1,3 +1,9 @@
+***
+npm i -D react-error-overlay@6.0.9
+
+for bug: React Uncaught ReferenceError: process is not defined
+***
+
 // tutorial 30
 react app starts from index.js
 
@@ -120,3 +126,6 @@ communicate from child to parent components
 key prop - where new item should be added
 key=id
 or add index in the map parameter, although it is discouraged
+
+// tutorial 67
+dynamic condition
