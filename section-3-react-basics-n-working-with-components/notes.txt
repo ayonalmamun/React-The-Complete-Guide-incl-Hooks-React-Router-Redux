@@ -118,4 +118,5 @@ communicate from child to parent components
 
 // 66 tutorial 
 key prop - where new item should be added
-key=
+key=id
+or add index in the map parameter, although it is discouraged
