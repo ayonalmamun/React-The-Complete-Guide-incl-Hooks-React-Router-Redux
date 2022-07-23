@@ -129,3 +129,6 @@ or add index in the map parameter, although it is discouraged
 
 // tutorial 67
 dynamic condition
+
+// tutorial 70
+dynamic sytyle
