@@ -1,0 +1,6 @@
+// tutorial 84:
+"react-scripts": "^5.0.1"
+
+"devDependencies": {
+    "react-error-overlay": "^6.0.9"
+}
