@@ -1,0 +1,13 @@
+// tutorial 77
+styled-components
+npm i styled-components
+
+attacked template literal``
+special method
+
+styled.button``
+style.p``
+style.h1``
+
+for psuedo selector(.button:focus) 
+use: &:focus
