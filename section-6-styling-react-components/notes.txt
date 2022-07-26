@@ -11,3 +11,6 @@ style.h1``
 
 for psuedo selector(.button:focus) 
 use: &:focus
+
+// tutorial 78
+reminder: in {} , && means if the previous statement is true then execute next statement
