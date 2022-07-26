@@ -4,3 +4,6 @@
 "devDependencies": {
     "react-error-overlay": "^6.0.9"
 }
+
+// tutorial 87
+react developer tool extension
