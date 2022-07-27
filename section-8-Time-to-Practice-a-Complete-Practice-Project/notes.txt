@@ -12,3 +12,8 @@ Portal
 // tutorial 105
 createPortal() wants JSX
 create elements in index.html
+
+// tutorial 106
+useRef
+
+ref is always an object which always has a current prop which holds the actual value that ref is connected with
