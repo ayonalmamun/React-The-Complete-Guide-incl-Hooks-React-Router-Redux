@@ -6,3 +6,9 @@ Alternative of JSX divs
 Fragment
 Alternative of Wrapper
 
+// tutorial 104
+Portal
+
+// tutorial 105
+createPortal() wants JSX
+create elements in index.html
