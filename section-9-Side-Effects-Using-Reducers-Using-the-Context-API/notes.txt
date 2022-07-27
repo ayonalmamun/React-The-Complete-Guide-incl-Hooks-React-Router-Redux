@@ -12,3 +12,8 @@ and whenever such a dependencies changes that the first function will re run
 
 therefore in the first function you can put any side effect code and that code will only execute 
 when the dependencies specified by you changed and not when the component re renders
+
+// tutorial 111
+Uncaught Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
+
+for solution we need useEffect
