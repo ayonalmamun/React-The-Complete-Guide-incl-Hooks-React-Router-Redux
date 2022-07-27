@@ -38,3 +38,6 @@ initial function
 here reducer function was created outside of the component because it doesnot need any data generated from the component
 
 dispatchEmail parameter can be anything like string, number, object
+
+// tutorial 118
+useEffect + useReducer
