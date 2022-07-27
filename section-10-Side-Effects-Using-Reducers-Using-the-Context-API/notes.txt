@@ -17,3 +17,9 @@ when the dependencies specified by you changed and not when the component re ren
 Uncaught Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
 
 for solution we need useEffect
+
+// tutorial 113
+check after user stops typing. for example after 500 miliseconds.
+it is called debouncing
+
+you can return from useEffect. but you can return functions only -> cleanup function
