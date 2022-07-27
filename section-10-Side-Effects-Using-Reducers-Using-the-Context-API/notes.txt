@@ -23,3 +23,18 @@ check after user stops typing. for example after 500 miliseconds.
 it is called debouncing
 
 you can return from useEffect. but you can return functions only -> cleanup function
+
+// tutorial 116
+when you update a state depending on another state, useReducer is always a good choice
+
+// tutorial 117
+const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn)
+state is the latest snapshot of the state
+dispatchFn dispatches an action for update the state
+dispatch action consumed by first argument of useReducer -> reducerFn
+set initial state
+initial function
+
+here reducer function was created outside of the component because it doesnot need any data generated from the component
+
+dispatchEmail parameter can be anything like string, number, object
