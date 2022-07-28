@@ -1,0 +1,4 @@
+// tutorial 137
+<input {... props.input}/>
+it will do this:
+<input id={props.input.id} type={props.input.type}
