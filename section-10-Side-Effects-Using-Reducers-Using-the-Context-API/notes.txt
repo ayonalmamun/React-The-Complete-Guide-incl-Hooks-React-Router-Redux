@@ -63,3 +63,8 @@ context api can also pass functions
 
 don't use context in Button component, use props.
 props are used to pass data in component
+
+// tutorial 125
+set everything in default context
+otherwise you will not get suggestion on IDE
+like context.???
