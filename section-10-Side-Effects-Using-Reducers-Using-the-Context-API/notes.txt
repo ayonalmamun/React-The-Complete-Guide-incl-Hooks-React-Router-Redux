@@ -57,3 +57,9 @@ how to listen it: authContext.Consumer
 // tutorial 123
 
 instead of authContext.Consumer, use useContext hook
+
+// tutorial 124
+context api can also pass functions
+
+don't use context in Button component, use props.
+props are used to pass data in component
