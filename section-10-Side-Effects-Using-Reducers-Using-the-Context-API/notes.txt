@@ -71,3 +71,15 @@ like context.???
 
 // tutorial 126
 useContext is not good for high frequency changes
+
+// tutorial 129
+useRef
+
+useImperativeHandle directly manipulating something in the component
+takes 2 arguments
+
+second one is an function that returns an object
+
+React.forwardRef()
+
+forwardRef returns a react component
