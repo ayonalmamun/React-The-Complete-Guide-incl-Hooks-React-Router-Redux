@@ -68,3 +68,6 @@ props are used to pass data in component
 set everything in default context
 otherwise you will not get suggestion on IDE
 like context.???
+
+// tutorial 126
+useContext is not good for high frequency changes
