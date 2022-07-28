@@ -42,7 +42,7 @@ dispatchEmail parameter can be anything like string, number, object
 // tutorial 118
 useEffect + useReducer
 
-// tutorial
+// tutorial 122
 
 authContext is an object which contains a component
 
@@ -53,3 +53,7 @@ authContext.Provider is component
 after wrapping this, all inside it has access to authContext.Provider
 
 how to listen it: authContext.Consumer
+
+// tutorial 123
+
+instead of authContext.Consumer, use useContext hook
