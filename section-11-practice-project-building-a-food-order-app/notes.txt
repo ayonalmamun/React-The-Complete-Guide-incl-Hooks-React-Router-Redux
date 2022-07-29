@@ -2,3 +2,8 @@
 <input {... props.input}/>
 it will do this:
 <input id={props.input.id} type={props.input.type}
+
+// tutorial 140
+createPortal()
+takes 2 in argument
+one is the thing it needs to portal(component), second one is the place where to portal it(inside index.html)
