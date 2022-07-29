@@ -7,3 +7,11 @@ it will do this:
 createPortal()
 takes 2 in argument
 one is the thing it needs to portal(component), second one is the place where to portal it(inside index.html)
+
+// tutorial 141
+useState
+showCartHandler:
+props is passed from App to Header. then Header to HeaderCartButton.
+then normally button to App(showCartHandler function)
+hideCartHandler
+props is passed from App to Cart. Then Cart to normal button which leads to App(hideCartHandler function)
