@@ -15,3 +15,12 @@ props is passed from App to Header. then Header to HeaderCartButton.
 then normally button to App(showCartHandler function)
 hideCartHandler
 props is passed from App to Cart. Then Cart to normal button which leads to App(hideCartHandler function)
+
+// tutorial 142
+context
+
+at first in store folder, cart-context.js -> everthing is initialized
+
+then create CartProvider component which will access CartContext.Provider. then pass props.children in the CartContext.Provider
+
+also add the context which will hold the variables and functions
