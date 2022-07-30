@@ -62,3 +62,6 @@ useContext in MealItem
 
 // tutorial 146
 bind()
+
+// tutorial 149 
+useEffect()
