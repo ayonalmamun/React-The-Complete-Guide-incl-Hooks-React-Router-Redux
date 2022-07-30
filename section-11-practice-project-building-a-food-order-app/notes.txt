@@ -46,3 +46,16 @@ in object, there will be type/identifier, name anything you want. assign the val
 second thing in the object is the item I am getting from the argument (item: item). naming is up to you
 
 actions will be caught on reducer function (here in cartReducer())
+
+// tutorial 145
+useRef()
+in MealItemForm
+will receive ref in Input -> React.forwardRef
+
+.current.value always returns a string even if the input type is number
+to convert, add +
+
+simple input validation in MealItemForm using useState
+
+passing data via props from MealItemForm to MealItem
+useContext in MealItem
