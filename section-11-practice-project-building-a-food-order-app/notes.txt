@@ -24,3 +24,25 @@ at first in store folder, cart-context.js -> everthing is initialized
 then create CartProvider component which will access CartContext.Provider. then pass props.children in the CartContext.Provider
 
 also add the context which will hold the variables and functions
+
+// tutorial 144
+useReducer in CartProvider
+it is used outside of the component because it doesn't need any data from the component
+state, action
+
+a variable defaultCartState, which state will be updated by useReducer
+
+then in component, we use useReducer where the first argument is the reducer function(cartReducer) 
+and the second one is the initial state which is defaultCartState
+
+useState always returns an array which contains exactly two elements
+one is the latest snapshot of the state
+another one is the function that allows to dispatch an action
+
+dispatch action can be anything, like number, string.
+typically it is an object
+
+in object, there will be type/identifier, name anything you want. assign the value with anything like ADD/ADD_TO_CART etc. this is just naming convention.
+second thing in the object is the item I am getting from the argument (item: item). naming is up to you
+
+actions will be caught on reducer function (here in cartReducer())
