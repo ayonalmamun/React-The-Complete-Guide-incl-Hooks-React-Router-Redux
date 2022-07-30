@@ -59,3 +59,6 @@ simple input validation in MealItemForm using useState
 
 passing data via props from MealItemForm to MealItem
 useContext in MealItem
+
+// tutorial 146
+bind()
