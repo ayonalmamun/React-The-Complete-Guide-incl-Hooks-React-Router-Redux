@@ -6,4 +6,8 @@ const fetchMovieHandler = () => {
     });
   };
 
-// tutorial 179
+// tutorial 181
+
+useCallback
+it makes sure that the function(fetchMoviesHandler) is not recreated unnecessarily
+reason to use useCallback is to prevent a component from re-rendering unless its props have changed.
