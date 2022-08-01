@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, Fragment } from "react";
 
 import MoviesList from "./components/MoviesList";
 import AddMovie from "./components/AddMovie";
@@ -57,7 +57,9 @@ function App() {
     );
 
     const data = await response.json();
-    console.log(data);
+
+    fetchMoviesHandler(); // experiment by me.
+
   };
 
   let content = <p>Found no movies.</p>;
