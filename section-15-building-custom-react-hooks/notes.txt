@@ -1,3 +1,6 @@
 // tutorial 188
 custom hook rules: 
 variable name must start with 'use' so that react can understand it is a custom hook.
+
+// tutorial 189
+you can return anything in custom hook
